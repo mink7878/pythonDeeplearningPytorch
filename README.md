@@ -9,10 +9,7 @@ https://stackoverflow.com/questions/55765234/pytorch-custom-activation-functions
 ## week4  
 - 93 page #(2) 코드  
 : apply 함수는 네트워크 내부의 모든 모듈을 재귀적으로 검색하고 각 모듈에서 함수를 호출함.
-- (참고) https://discuss.pytorch.org/t/weight-initilzation/157/21 https://blogofth-lee.tistory.com/264  
-
-
-
+- (참고) https://discuss.pytorch.org/t/weight-initilzation/157/21 https://blogofth-lee.tistory.com/264  <br/>
 - Auto**Encoder**라는 이름에서 Encoding 기능에 중점을 두었음을 알 수 있다. 단순히 입력을 넣어 출력하는 것이 목적이 아니라, 잘 학습된 Encoder 부분은 **특징 추출기**로 사용이 가능하다.
 - 원본으로 복원이 가능한, 독특한 패턴을 지닌 압축된 정보의 덩어리(특징 벡터)를 활용하는 방식은 무궁무진하다. 
 - 특징 벡터는 인간이 해석할 수는 없지만, 분명히 입력 데이터에 대한 어떤 법칙을 가진 특징이 추출된다.
